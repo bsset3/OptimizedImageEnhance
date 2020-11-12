@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T13:52:29.620Z" agent="5.0 (X11)" etag="GXLyDVsX9d8kVrKBk2D3" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T13:57:32.782Z" agent="5.0 (X11)" etag="euMlADOQ00diK0ZpQPZD" version="13.9.7" type="github">
   <diagram id="xPWe1tmeSlzq7nGMJqeg" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="583" pageHeight="827" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
         <mxCell id="oyos67xnMo7KsbKTdC51-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Image input&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oyos67xnMo7KsbKTdC51-3" value="&lt;div&gt;Decomposition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oyos67xnMo7KsbKTdC51-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Decomposition&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oyos67xnMo7KsbKTdC51-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Direct reflectance component&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -48,7 +48,7 @@
         <mxCell id="oyos67xnMo7KsbKTdC51-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Transmission map correction&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="575" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oyos67xnMo7KsbKTdC51-14" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Background light&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;correction&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oyos67xnMo7KsbKTdC51-14" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Background light correction&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oyos67xnMo7KsbKTdC51-19" value="" style="endArrow=classic;html=1;exitX=0.067;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="oyos67xnMo7KsbKTdC51-10" target="oyos67xnMo7KsbKTdC51-14">
@@ -93,13 +93,29 @@
             <mxPoint x="590" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oyos67xnMo7KsbKTdC51-55" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oyos67xnMo7KsbKTdC51-12" target="oyos67xnMo7KsbKTdC51-29">
+        <mxCell id="oyos67xnMo7KsbKTdC51-55" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oyos67xnMo7KsbKTdC51-12" target="oyos67xnMo7KsbKTdC51-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="211" y="500" as="sourcePoint" />
             <mxPoint x="280" y="465" as="targetPoint" />
             <Array as="points">
               <mxPoint x="220" y="510" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyos67xnMo7KsbKTdC51-57" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;dashPattern=1 1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="580" as="sourcePoint" />
+            <mxPoint x="590" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oyos67xnMo7KsbKTdC51-59" value="&lt;font size=&quot;3&quot;&gt;image Output&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oyos67xnMo7KsbKTdC51-62" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=1 1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oyos67xnMo7KsbKTdC51-29" target="oyos67xnMo7KsbKTdC51-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="700" as="sourcePoint" />
+            <mxPoint x="590" y="650" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
